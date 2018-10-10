@@ -1,0 +1,812 @@
+body
+{
+    font-family: 'Cairo', sans-serif;
+}
+
+/*====================== start nav bar======================  */
+.fixed-top {
+    position: fixed;
+    top: 35px;
+    right: 150px;
+    left: 150px;
+    z-index: 1030;
+}
+.navbar-brand img
+{
+    width: 170px;
+}
+.navbar-light .navbar-nav .active>.nav-link
+{
+    color: rgb(177, 164, 120);
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    /* font-weight: 500; */
+    font-weight: bold;
+    margin: 0 14px;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: rgb(177, 164, 120);
+}
+/*====================== end nav bar======================  */
+
+
+
+/*====================== end home slider======================  */
+
+.carousel-home
+{
+    position: relative;
+}
+.carousel-home .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000059;
+    top: 0;
+    left: 0;
+}
+.carousel-home .slid-a
+{
+ 
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover; 
+    background-size:cover ;
+   
+    background-position: center center;
+}
+.carousel-home .slid-b
+{
+    
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover; 
+    background-size:cover ;
+  
+    background-position: center center;
+}
+.carousel-home .slid-c
+{
+   
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover; 
+    background-size:cover ;
+    
+    background-position: center center;
+}
+.carousel-home .box-intro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center
+}
+.carousel-home .box-intro h2
+{
+    color: #fff;
+    font-weight: 900;
+    font-size: 68px;
+    /* margin-right: -82px; */
+}
+.carousel-home .box-intro p
+{
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+}
+/* .carousel-home .box-intro button
+{
+    background: #2C373D;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #2C373D;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: all .5s ease-in-out
+}
+.carousel-home .box-intro button:hover
+{
+    background: transparent;
+    color: #fff;
+} */
+.carousel-indicators .active {
+    background-color: #b48f23;
+    width: 30px;
+    height: 8px;
+    border-radius: 20px;
+}
+.carousel-indicators li
+{
+    width: 11px;
+    height: 8px;
+    border-radius: 20px;
+    transition:all 1s ease-in-out
+}
+/*====================== end home slider======================  */
+
+
+/*====================== start features======================  */
+.features
+{
+    margin-top: 75px;
+    /* margin-bottom: 65px; */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 28px;
+}
+.features img
+{
+    width: 45px;
+}
+.features h3
+{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #5d5c5c;
+}
+.features p
+{
+    color: #5d5c5c;
+}
+/*====================== end features======================  */
+
+/*====================== start about======================  */
+.about
+{
+    margin-top: 75px;
+    margin-bottom: 50px
+}
+.about h5
+{
+    color: #b48f23;
+    font-weight: bold
+
+}
+.about h2
+{
+    font-weight: bold;
+}
+.about h2 span
+{
+    /* border-bottom: 2px solid #b48f23; */
+}
+.about p
+{
+    color: #5d5c5c;
+    line-height: 28px;
+}
+.about img.man-img 
+{
+    width: 45px;
+
+}
+.about h4
+{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.about .box-about
+{
+    width: 380px;
+    overflow: hidden;
+    height: 400px;
+}
+.about img
+{
+    width: 100%;
+    height: 400px;
+    border-radius: 16px;
+    transition: all 4s ease-in-out
+}
+.about img:hover
+{
+    border-radius: 16px;
+    transform: scale(1.5)
+}
+/*====================== end about======================  */
+
+/*====================== start service======================  */
+.service
+{
+    background:#f1f1f1;
+    margin-bottom: 50px;
+}
+.service h5
+{
+    padding-top: 60px;
+    color: #b48f23;
+    font-weight: bold
+    
+}
+.service h2
+{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px
+}
+.service h2 span
+{  
+    border-bottom: 2px solid #b48f23;
+    padding-bottom: 5px;
+}
+.service .box-service
+{
+    background: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #b48f23;
+    margin: 10px;
+    width: 360px;
+    height: 259px;
+    overflow: hidden;
+}
+.service .box-service img
+{ 
+    width: 45px;
+    margin: 5px 0;
+}
+.service .box-service h4
+{
+    margin: 5px 0
+}
+/*====================== end service======================  */
+
+/*====================== start dental======================  */
+.dental
+{
+    background: url(../imags/coverdentel.jpg);
+    height: 500px;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+    margin-bottom: 75px
+}
+.dental .box-dental-img img
+{
+    width: 365px;
+    height: 495px;
+    margin: 0 10px;
+
+}
+.dental .box-dental-title  h2
+{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 90px;
+}
+.dental .box-dental-title  p
+{
+    line-height: 30px
+}
+
+.dental button
+{
+    background: #2c373d;
+    padding: 10px m;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 21px;
+    width: 200px;
+    transition: all .5s ease-in-out;
+    outline: none
+}
+.dental button:hover
+{
+    background: #b48f23;
+    color: #000;
+}
+
+/*====================== end dental======================  */
+
+
+/*====================== start team======================  */
+.team h5
+{
+    padding-top: 60px;
+    color: #b48f23;
+    font-weight: 900
+}
+.team h2
+{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px
+}
+.team h2 span
+{  
+    border-bottom: 2px solid #b48f23;
+    padding-bottom: 5px;
+}
+
+
+
+.team .box-team
+{
+    background: #f8f9fa;
+    width: 500px;
+}
+.team .box-team img
+{
+    width: 100%;
+    height: 230px;
+}
+.team .box-team h5
+{
+    color: #000;
+    margin: 0;
+    padding: 15px 30px 1px;
+    font-weight: bold;
+}
+.team .box-team span
+{
+    display: block;
+    padding: 5px 28px 0px;
+    color: #777;
+}
+.team .box-team p
+{
+    text-align: right;
+    padding: 0 7px;
+    /* padding: 0px 10px 2px; */
+    margin: 0
+}
+.team .box-team i
+{
+    font-size: 19px;
+    cursor: pointer;
+    color: #b1a478;
+}
+.team .box-team ul
+{
+    list-style: none;
+    padding: 3px 10px;
+    margin: 0
+}
+.team .box-team ul li
+{
+    display: inline-block;
+    margin-right: 12px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 35px;
+}
+.owl-theme .owl-dots .owl-dot.active span
+ {
+    background: #b48f23;
+    width: 20px;
+
+}
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel button.owl-dot
+{
+    outline: none
+}
+.owl-theme .owl-dots .owl-dot span
+{
+    background: #212529;
+    margin: 5px 3px;
+}
+/*====================== end team======================  */
+
+/*====================== start photo-gallery======================  */
+.photo-gallery
+{
+    background: #f1f1f1;
+}
+.photo-gallery h5
+{
+    padding-top: 60px;
+    color: #b48f23;
+    font-weight: 900
+    
+}
+.photo-gallery h2
+{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px
+}
+.photo-gallery h2 span
+{  
+    border-bottom: 2px solid #b48f23;
+    padding-bottom: 5px;
+}
+.photo-gallery .box-photos
+{
+    overflow: hidden;
+    width: 100%;
+
+}
+.photo-gallery .box-photos img
+{
+    width: 100%;
+    height: 250px;
+    margin: 8px 0;
+    transition: all 5s ease-in-out;
+}
+.photo-gallery .box-photos img:hover
+{
+   transform: scale(1.4);
+
+}
+/*====================== end photo-gallery======================  */
+/*====================== start testimonials======================  */
+.testimonials h5,
+.forms h5
+{
+    padding: 50px 0 0;
+    color: #b48f23;
+    font-weight: 900;
+    position: relative;
+    z-index: 3;
+}
+.testimonials h2,
+.forms h2
+{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 3;
+}
+.testimonials h2 span,
+.forms h2 span
+{  
+    border-bottom: 2px solid #b48f23;
+    padding-bottom: 5px;
+    position: relative;
+    z-index: 3;
+}
+
+.testimonials
+{
+    background: url(../imags/testi.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+       background-size: cover;
+       height: 500px;
+       position: relative;
+       color: #fff
+}
+.testimonials .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000d1;
+    top: 0;
+    left: 0;
+}
+
+.testimonials .testi
+{
+
+    margin: 46px auto 17px;
+}
+.testimonials .testi img
+{
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.testimonials .testi p
+{
+    max-width: 500px;
+    margin: auto;
+}
+.testimonials .owl-theme .owl-dots .owl-dot span {
+    background: #b48f23;
+    margin: 5px 3px;
+}
+.testimonials .testi h5
+{
+    padding: 15px 0 0;
+}
+/*====================== end testimonials======================  */
+
+/*====================== start forms======================  */
+.forms
+{
+    padding: 100px 0 20px;
+}
+.forms .for
+{
+    padding: 10px;
+    margin-top: 20px;
+}
+.forms .for input,
+.forms .for textarea
+
+{
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline: none;
+    padding: 7px 10px;
+    box-shadow: 0 0 15px #ddd;
+
+}
+.forms .for button
+{
+    background: #856404;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #856404;
+    border-radius: 5px;
+    outline: none;
+    float: right;
+}
+
+
+.forms img{
+    width: 540px;
+    height: 428px;
+    border-radius: 29px;
+    margin-top: 35px;
+}
+/*====================== end forms======================  */
+
+/*======================start footer======================  */
+footer
+{
+    background: #2c373d;
+    margin-top: 70px;
+    padding: 40px
+}
+footer img
+{
+    width: 150px;
+}
+footer h3
+{
+ color: #b48f23;
+}
+footer p
+{
+    color:#94abb7
+}
+footer ul
+{
+    list-style: none;
+    padding: 0;
+    color:#94abb7
+}
+footer ul li
+{
+display: inline-block;
+margin-bottom: 10px
+}
+footer ul li a
+{
+    color:#94abb7;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+footer ul li a:hover
+{
+    color: #b48f23
+}
+footer .block li
+{
+display:block;
+margin-bottom: 20px
+}
+footer span
+{
+    color: #b5ddf1;
+}
+.copy
+{
+    background: #000;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+}
+/*======================end footer======================  */
+
+
+/* %%%%%%%%%%%%%%%%%%%%% start media %%%%%%%%%%%%%%%%%%%%%*/
+@media (max-width: 1199.98px) { 
+    .fixed-top {
+        position: fixed;
+        top: 35px;
+        right: 20px;
+        left: 20px;
+        z-index: 1030;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        margin: 0 5px;
+    }
+    .service .box-service{
+        margin: 10px auto
+    }
+
+
+
+    .dental .box-dental-img img {
+        width: 334px;
+
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0 5px;
+        text-align: right;
+    }
+}
+@media (max-width: 991.98px) { 
+    .service {
+  
+        height: auto;
+    }
+    .timer .box-timer img{
+        left: 15px;
+    }
+    .timer .box-timer span
+    {
+        left: 59px;
+    }
+    .team .box-team {
+        width: auto;
+    }
+    .service .box-service{
+        width: 325px;
+        height: 300px;
+    }
+    .dental{
+        height: auto;
+    }
+    .dental .box-dental-img img {
+       
+        margin: 0 178px;
+    }
+    .team .item{
+        margin: 20px;
+    }
+    .service .box-service {
+        width: 249px;}
+    } 
+    @media (max-width: 767.98px) { 
+        .carousel-home .box-intro {
+            padding: 216px 0;
+        }
+        .carousel-home .box-intro h1 {
+            color: #fff;
+            font-weight: bold;
+            font-size: 47px;
+            margin-right: -82px;
+        }
+        .timer .box-timer img {
+            left: -17px;
+        }
+        .testimonials .testi {
+
+            margin: 101px auto 40px;
+        }
+        .news .card
+        {
+          margin-bottom: 20px
+        }
+        .dental {
+            height: auto;
+            overflow: hidden;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+     }
+    @media(max-width:575px){
+
+        .fixed-top {
+            position: fixed;
+            top: 0px;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+        }
+        .carousel-home .slid-a,
+        .carousel-home .slid-b,
+        .carousel-home .slid-c
+        {
+            background-position: center;
+            height: 100vh;
+        }
+        .carousel-home .box-intro h1 {
+            color: #fff;
+            font-weight: bold;
+            font-size: 39px;
+            margin-right: 7px;
+        }
+        .carousel-home .box-intro p {
+            color: #fff;
+            font-weight: normal;
+            font-size: 19px;
+        }
+        .carousel-home .box-intro button
+        {
+            padding: 4px 13px;
+            margin: 5px;
+        }
+        .features {
+            margin-top: 20px;
+        }
+        .about img {
+
+            width:335px;
+        }
+       
+        .service h5 {
+            padding-top: 10px;
+        }
+        .service {
+
+            height: auto;
+        }
+        .service h2
+        {
+            font-size: 25px
+        }
+        .dental .box-dental-img img {
+            width: 317px;
+            margin: 20px auto;
+        }
+        .dental{
+            height: auto;
+        }
+        .dental .box-dental-title h2 {
+            font-size: 25px;
+        
+        }
+        .dental h2 {
+            font-size: 33px;
+            font-weight: bold;
+            padding-top: 25px;
+        }
+        .subscribe {
+            height: auto;
+            margin-top: 27px;
+        }
+        .subscribe input {
+        margin-bottom: 10px;
+            width: 284px;
+        }
+        .service .box-service {
+            width: 318px;
+        }
+        .about{
+            overflow: hidden;
+        }
+    }
